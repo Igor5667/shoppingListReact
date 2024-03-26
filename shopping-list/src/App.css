@@ -1,0 +1,41 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+* {
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+ul li {
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 3px;
+  border-bottom: solid transparent 1px;
+  border-radius: 4px;
+}
+ul li:hover{
+  transition: .15s;
+  border-bottom: solid 1px rgb(125, 125, 125);
+}
+ul li *{
+  text-align: center;
+  background-color: transparent;
+  border: solid rgb(57, 57, 57) 1px;
+  border-radius: 10px;
+  height: 30px
+}
+ul li *:hover{
+  background-color: #4e4e4e3f
+}
+button{
+  margin-left: 5px;
+  width: 30px;
+}
+li input:focus{
+  background-color: #343434;
+}
