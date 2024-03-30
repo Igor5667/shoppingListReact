@@ -1,13 +1,13 @@
 import React, { useState } from 'react'
 
-function ListItem(props){
-    const [value, setValue] = useState(props.item)
+function ListItem({id,name,remove}){
+    const [value, setValue] = useState(name)
     return(
         <li>
             <input type="text" value={value} onChange={(e)=>{
                 setValue(e.target.value)
             }}/>
-            <button id={props.index} onClick={(e)=>{props.remove(Number(e.target.id))}}>🗑️</button>
+            <button onClick={()=>{remove(id)}}>🗑️</button>
             <button>☰</button>
         </li>
     )
