@@ -39,3 +39,10 @@ button{
 li input:focus{
   background-color: #343434;
 }
+ul li button.add-button{
+  width: 65px;
+}
+
+.add-button:enabled{
+  background-color: rgb(28, 164, 80);
+}
