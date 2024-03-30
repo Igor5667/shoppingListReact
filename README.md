@@ -1,11 +1,42 @@
-# SHOPPING APP
+# Shopping App
 
-I make a web application in **React.js + Vite** which is schopping list.
+Welcome! I make a **React.js + Vite** app for manage shopping list in 
 
-I'd like to learn functionalities like removing from list, adding new items, and drag and drop by adding them on this site.
+## Features
 
-using UUID
-'''npm install uuid'''
+- **Adding Items**
+- **Removing Items**
 
-Current view:
+## Getting Started
+
+To get started with the Shopping App, follow these steps:
+
+1. Clone this repository to your local machine:
+
+    ```bash
+    git clone https://github.com/Igor5667/shoppingListReact.git
+    ```
+
+2. Navigate to the project directory:
+
+    ```bash
+    cd shopping-app
+    ```
+
+3. Install dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Run the development server:
+
+    ```bash
+    npm run dev
+    ```
+
+5. Ctrl+click provided link to view the app.
+
+## Current view
+
 ![biblethump there is no image](imagesToReadMe/currentView.jpg)
